@@ -10,6 +10,13 @@
             font-family: 'Source Han Sans';
             src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap');
         }
+        
+        @media (max-width: 480px) {
+            .button-container a {
+                padding: 12px;
+                font-size: 1em;
+            }
+        }
 
         body, html {
             margin: 0;
@@ -29,46 +36,46 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background-image: url('https://zh.yuazhi.cn/oasun.jpg'); /* 使用图片作为背景 */
+            background-image: url('https://zh.yuazhi.cn/oa-hk.jpg'); /* 使用图片作为背景 */
             background-size: cover; /* 让背景图像覆盖整个背景 */
             background-position: center; /* 将背景图像居中 */
-            background-color: rgba(0, 0, 0, 0.4); /* 添加半透明的黑色遮罩层 */
+            background-color: rgba(0, 0, 0, 0.6); /* 添加较深的黑色遮罩层 */
             z-index: -1; /* 将背景层置于内容层下 */
         }
 
         .container {
             width: 100%;
-            max-width: 600px; /* 限制容器最大宽度 */
+            max-width: 600px;
             padding: 30px;
-            background-color: rgba(255, 255, 255, 0.9); /* 添加透明度以允许背景稍微透过 */
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* 增加阴影效果 */
+            background-color: rgba(255, 255, 255, 0.8); /* 调整透明度 */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* 增加阴影效果 */
             border-radius: 8px; /* 圆角 */
-            text-align: center; /* 使内容居中 */
+            text-align: center;
         }
 
         h1 {
             font-size: 2.5em;
-            color: #00796b; /* 更有活力的颜色 */
+            color: #c0392b; /* 使用接近红色出租车的颜色 */
             margin-bottom: 20px;
         }
 
         p {
             font-size: 1.2em;
-            color: #607d8b;
+            color: #34495e; /* 深蓝灰色，与建筑风格相近 */
             margin-bottom: 30px;
         }
 
         .button-container {
             display: flex;
             flex-direction: column;
-            gap: 15px; /* 按钮之间的间距 */
+            gap: 15px;
         }
-
+        
         .button-container a {
             padding: 14px;
             font-size: 1.1em;
             color: #ffffff;
-            background-color: #00796b;
+            background-color: #c0392b; /* 按钮背景为红色 */
             border: none;
             border-radius: 4px;
             text-align: center;
@@ -77,8 +84,8 @@
         }
 
         .button-container a:hover {
-            background-color: #004d40;
-            transform: translateY(-2px); /* 悬停时轻微上移效果 */
+            background-color: #8e2720; /* 悬停时的深红色效果 */
+            transform: translateY(-2px);
         }
 
         .oa-button {
@@ -88,7 +95,7 @@
             padding: 10px 20px;
             font-size: 0.9em;
             color: #ffffff;
-            background-color: #00796b; /* 按钮的背景颜色 */
+            background-color: #c0392b;
             border: none;
             border-radius: 4px;
             text-decoration: none;
@@ -96,7 +103,7 @@
         }
 
         .oa-button:hover {
-            background-color: #004d40;
+            background-color: #8e2720;
             transform: translateY(-2px);
         }
 
@@ -138,8 +145,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>创作不断<br>创意无限</h1>
-        <p>实现对互联世界的无缝访问</p>
+        <h1>设计启智韵<br>技术筑知库</h1>
+        <p>风火山林间寻真意</p>
         <div class="button-container">
             <a href="https://my.spircape.com">Microsoft</a>
             <a href="https://spircape.sg.larksuite.com">Lark</a>
