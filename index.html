@@ -39,19 +39,19 @@
             background-image: url('https://zh.yuazhi.cn/oa-hk2.jpg'); /* 使用图片作为背景 */
             background-size: cover; /* 让背景图像覆盖整个背景 */
             background-position: center; /* 将背景图像居中 */
-            background-color: rgba(0, 0, 0, 0.6); /* 添加较深的黑色遮罩层 */
+            background-color: rgba(0, 0, 0, 0.4); /* 添加半透明的黑色遮罩层 */
             z-index: -1; /* 将背景层置于内容层下 */
         }
-
         .container {
             width: 100%;
-            max-width: 600px;
+            max-width: 600px; /* 限制容器最大宽度 */
             padding: 30px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* 增加阴影效果 */
+            background-color: rgba(255, 255, 255, 0.9); /* 添加透明度以允许背景稍微透过 */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* 增加阴影效果 */
             border-radius: 8px; /* 圆角 */
-            text-align: center;
+            text-align: center; /* 使内容居中 */
         }
-
+        
         h1 {
             font-size: 2.5em;
             color: #e74c3c; /* 使用接近红色出租车的颜色 */
